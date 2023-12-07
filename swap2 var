@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main(){
+int a=2 , b=5 , c;
+printf("enter a, b");
+scanf("%d %d" , &a , &b);
+c=a;
+a=b;
+b=c;
+
+printf("%d%d" , a,b);
+
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
